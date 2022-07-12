@@ -1,0 +1,787 @@
+- #animation
+        name: 'animation'
+        description: 'The Flutter animation system. This library provides basic building blocks for implementing animations in Flutter. Other layers of the framework use these building blocks to provide advanced animation support for applications.'
+        classes:
+            - #1
+                name: AlwaysStoppedAnimation<T>
+                description: 'An animation that is always stopped at a given value.'
+                properties:
+                    -
+                        name: 'hashCode'
+                        type: 'int'
+                        description: 'The hash code for this object. A hash code is a single integer which represents the state of the object that affects operator == comparisons.'
+                    -
+                        name: 'isCompleted'
+                        type: 'bool'
+                        description: 'Whether this animation is stopped at the end.'
+                    -
+                        name: 'isDismissed'
+                        type: 'bool'
+                        description: 'Whether this animation is stopped at the beginning.'
+                    -
+                        name: 'runtimeType'
+                        type: 'Type'
+                        description: 'A representation of the runtime type of the object.'
+                    -
+                        name: 'status'
+                        type: 'AnimationStatus'
+                        description: 'The current status of this animation.'
+                    -
+                        name: 'value'
+                        type: 'T'
+                        description: 'The current value of the animation.'
+                methods:
+                    -
+                        name: 'addListener'
+                        parameter: 'VoidCallback'
+                        type: 'void'
+                        description: 'Calls the listener every time the value of the animation changes.'
+                    -
+                        name: 'addStatusListener'
+                        parameter: 'AnimationStatusListener '
+                        type: 'void'
+                        description: 'Calls listener every time the status of the animation changes.'
+                    -
+                        name: 'drive<U>'
+                        parameter: 'Animatable<U>'
+                        type: 'Animation<U>'
+                        description: 'Chains a Tween (or CurveTween) to this Animation'
+                    -
+                        name: 'noSuchMethod'
+                        parameter: 'Invocation'
+                        type: 'dynamic'
+                        description: 'Invoked when a non-existent method or property is accessed.'
+                    -
+                        name: 'removeListener'
+                        parameter: 'VoidCallback'
+                        type: 'void'
+                        description: 'Stop calling the listener every time the value of the animation changes.'
+                    -
+                        name: 'removeStatusListener'
+                        parameter: 'AnimationStatusListener'
+                        type: 'void'
+                        description: 'Stops calling the listener every time the status of the animation changes.'
+                    -
+                        name: 'toString'
+                        parameter: 'none'
+                        type: 'void'
+                        description: 'A string representation of this object.'
+                    -
+                        name: 'toStringDetails'
+                        parameter: 'none'
+                        type: 'void'
+                        description: 'Provides a string describing the status of this object, but not including information about the object itself.'
+            - #2
+                name: Animatable<T>
+                description: 'An object that can produce a value of type T given an Animation<double> as input.'
+                properties:
+                    -
+                        name: 'hashCode'
+                        type: 'int'
+                        description: 'The hash code for this object.'
+                    -
+                        name: 'runtimeType'
+                        type: 'Type'
+                        description: 'A representation of the runtime type of the object.'
+                methods:
+                    -
+                        name: 'addListener'
+                        parameter: 'VoidCallback'
+                        type: 'void'
+                        description: ''
+            - #3
+                name: Animation<T>
+                description: An animation with a value of type T.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #4
+                name: AnimationController
+                description: A controller for an animation.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description: 
+            - #5
+                name: AnimationMax<T extends num>
+                description: An animation that tracks the maximum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description: 
+            - #6
+                name: AnimationMean
+                description: An animation of doubles that tracks the mean of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description: 
+            - #7
+                name: AnimationMin<T extends num>
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #8
+                name: CatmullRomCurve
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #9
+                name: CatmullRomSpline
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #10
+                name: ColorTween
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #11
+                name:  CompoundAnimation<T> 
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #12
+                name:  ConstantTween<T> 
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #13
+                name: Cubic
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #14
+                name: Curve
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #15
+                name: Curve2D
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #16
+                name: Curve2DSample
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #17
+                name: CurvedAnimation
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #18
+                name: Curves
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #19
+                name: CurveTween
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #20
+                name: ElasticInCurve
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #21
+                name: ElasticInOutCurve
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #22
+                name: ElasticOutCurve
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #23
+                name: FlippedCurve
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #24
+                name: FlippedTweenSequence
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #25
+                name: Interval
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #26
+                name: IntTween
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #27
+                name:  ParametricCurve<T> 
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #28
+                name: ProxyAnimation
+                description: An animation that tracks the minimum of two other animations.
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #29
+                name: RectTween
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #30
+                name: ReverseAnimation
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #31
+                name:  ReverseTween<T extends Object?> 
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #32
+                name: SawTooth
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #33
+                name: SizeTween
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #34
+                name: StepTween
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #35
+                name: ThreePointCubic
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #36
+                name: Threshold
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #37
+                name: TickerFuture
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #38
+                name: TrainHoppingAnimation
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #39
+                name:  Tween<T extends Object?> 
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #40
+                name:  TweenSequence<T> 
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            - #41
+                name:  TweenSequenceItem<T> 
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description: 
+        mixins:
+            -
+                name: AnimationEagerListenerMixin
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            -
+                name: AnimationLazyListenerMixin
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            -
+                name: AnimationLocalListenersMixin
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            -
+                name: AnimationLocalStatusListenersMixin
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            -
+                name:  AnimationWithParentMixin<T> 
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+        constants:
+            -
+                name: kAlwaysCompleteAnimation
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            -
+                name: kAlwaysDismissedAnimation
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+        enums:
+            -
+                name: AnimationBehavior
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+            -
+                name: AnimationStatus
+                description: 
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+        typedefs:
+            -
+                name: AnimationStatusListener 
+                description: Signature for listeners attached using Animation.addStatusListener. 
+                implementation: typedef AnimationStatusListener = void Function(AnimationStatus status);
+        exceptions:
+            -
+                name: TickerCanceled 
+                description: Exception thrown by Ticker objects on the TickerFuture.orCancel future when the ticker is canceled.  
+                properties: 
+                    -
+                        name: 
+                        type: 
+                        description: 
+                methods:
+                    -
+                        name: 
+                        parameter: 
+                        type: 
+                        description:
+    
